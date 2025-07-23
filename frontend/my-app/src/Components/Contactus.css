@@ -1,0 +1,32 @@
+.contact-container {
+    background-color: #f7c1cc;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .contact-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-button {
+    background-color: #c76868;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #a74f4f;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  

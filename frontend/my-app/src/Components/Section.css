@@ -1,0 +1,84 @@
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Section Styling */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  padding: 30px;
+  border-radius: 12px;
+  background: #f8f9fa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Reverse Flex Direction */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Image Container */
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.section-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Text Container */
+.text-container {
+  flex: 1;
+  padding: 20px;
+  color: #333;
+}
+
+.text-container h2 {
+  font-size: 26px;
+  color: #d63384;
+  margin-bottom: 12px;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 308px) {
+  .section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .reverse {
+    flex-direction: column;
+  }
+
+  .text-container {
+    padding: 15px;
+  }
+
+  .section-image {
+    width: 90%;
+  }
+}

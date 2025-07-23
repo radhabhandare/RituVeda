@@ -1,0 +1,25 @@
+.reminder-container {
+    padding: 20px;
+    border: 1px solid #e60852;
+    border-radius: 8px;
+    background-color: #0cf0f0;
+    margin-top: 20px;
+  }
+  
+  .reminder-container h2 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .reminder-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reminder-container li {
+    padding: 10px;
+    border-bottom: 1px solid #e4d906;
+    font-size: 16px;
+    color: #555;
+  }
+  

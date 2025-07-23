@@ -1,0 +1,58 @@
+
+.about-container {
+    background: linear-gradient(to bottom, #1a001a, #3d004d);
+    color: yellow;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .about-container p {
+    color: gold;
+    font-style: italic;
+  }
+  
+  
+  
+  .mission-statement {
+    font-size: 18px;
+    font-weight: 500;
+    color: #b3002d;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .section-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .text-container {
+    flex: 2;
+  }
+  
+  h2 {
+    color: #b3002d;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
